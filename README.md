@@ -35,9 +35,9 @@ The dataset is mostly balanced, with most classes containing 49–50 images. How
 An analysis of sample images from each class revealed significant variance in resolution, which is a critical challenge for model input.
 
 - **Channels**: 3 (RGB)
-- **Minimum Resolution**: 135 x 146 pixels
-- **Maximum Resolution**: 1699 x 1300 pixels
-- **Average Resolution**: Approx. 254 x 290 pixels
+- **Minimum Resolution**: 148 x 148 pixels
+- **Maximum Resolution**: 4032 x 4000 pixels
+- **Average Resolution**: Approx. 350.69 x 393.18 pixels
 
 This heterogeneity necessitates a robust preprocessing pipeline to standardize image dimensions before feeding them into the neural network.
 
